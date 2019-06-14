@@ -3,7 +3,7 @@ function closestToZero(array) {
   if (!filtered || filtered.length === 0) return 0;
   return filtered.reduce(
     (prev, curr) =>
-      console.log('prev ==', prev, 'curr ==', curr) || curr === 0
+      curr === 0
         ? curr
         : curr > 0 && curr <= Math.abs(prev)
         ? curr
