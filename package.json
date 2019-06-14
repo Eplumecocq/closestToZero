@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "jest": "^24.8.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "name": "test-gojob",
+  "version": "1.0.0",
+  "description": "short function to find the closest number to zero from an array",
+  "main": "index.js",
+  "author": "Eliot Plumecocq <eliot.plumecoq@gmail.com>",
+  "license": "MIT"
+}
