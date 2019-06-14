@@ -1,7 +1,5 @@
 # closestToZero
 
-Test GoJob
-
 Write a function "closestToZero()"
 
 ## Installation

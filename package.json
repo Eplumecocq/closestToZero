@@ -10,5 +10,8 @@
   "description": "short function to find the closest number to zero from an array",
   "main": "index.js",
   "author": "Eliot Plumecocq <eliot.plumecoq@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "engines": {
+    "node": ">=10.*"
+  }
 }

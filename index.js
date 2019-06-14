@@ -1,7 +1,11 @@
-function closestToZero(array) {
-  const filtered = array.filter(item => !isNaN(parseInt(item)));
-  if (!filtered || filtered.length === 0) return 0;
-  return filtered.reduce(
+function closestToZero(inputArray) {
+  const filteredInput = inputArray.filter(item => !isNaN(parseInt(item)));
+
+  if (!filteredInput || filteredInput.length === 0) {
+    return 0;
+  }
+
+  return filteredInput.reduce(
     (prev, curr) =>
       curr === 0
         ? curr
